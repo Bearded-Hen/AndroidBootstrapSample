@@ -55,7 +55,6 @@ public class MainActivity extends ActionBarActivity {
         final BootstrapButton button1 = (BootstrapButton) findViewById(R.id.btnOne);
         final BootstrapButton button2 = (BootstrapButton) findViewById(R.id.btnTwo);
         final BootstrapButton button3 = (BootstrapButton) findViewById(R.id.btnThree);
-        final BootstrapButton buttonBig = (BootstrapButton) findViewById(R.id.btnBig);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
