@@ -3,6 +3,9 @@
 buildscript {
     repositories {
         jcenter()
+        flatDir {
+            dirs 'aars'
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.0.0'
